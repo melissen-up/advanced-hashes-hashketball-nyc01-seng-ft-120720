@@ -139,7 +139,8 @@ def num_points_scored(player_name)
     keys_list[:players].each do |player|
       return player[:points] player[:player_name] == player_name
     end
-  
+  end
+end
 end
 
 def shoe_size(player_name)
