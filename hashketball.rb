@@ -195,7 +195,9 @@ def big_shoe_rebounds
   biggest_shoe = 0
   rebounds_scored = 0
   game_hash.each do |home_away, keys_list|
-    keys_list[:players].each do |
+    keys_list[:players].each do |player|
+      if player[:shoe] > biggest_shoe
+        
 end
 
 # ~*~*~*~*BONUS CHALLENGES*~*~*~*~
