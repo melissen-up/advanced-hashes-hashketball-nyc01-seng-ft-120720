@@ -180,10 +180,10 @@ end
 def player_stats(player_name)
   game_hash.each do |home_away, keys_list|
     keys_list[:players].each do |player|
-      if player[:player_name] == player_name
-        return player
-      end
-      # player[:player_name] ? player_name : player
+      # if player[:player_name] == player_name
+      #   return player
+      # end
+      player[:player_name] ? player_name : player
     end
   end
 end
