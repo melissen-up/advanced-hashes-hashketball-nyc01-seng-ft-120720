@@ -192,6 +192,9 @@ def big_shoe_rebounds
   #first, find the player w/ the largest shoe size
   #return that players number of rebounds
   #remember to think about return values here
+  biggest_shoe = 0
+  rebounds_scored = 0
+  game_hash
 end
 
 # ~*~*~*~*BONUS CHALLENGES*~*~*~*~
