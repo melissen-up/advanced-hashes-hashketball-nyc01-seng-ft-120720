@@ -1,5 +1,3 @@
-require 'pry'
-
 def game_hash
   {
     home: {
@@ -187,5 +185,4 @@ end
 
 def long_name_steals_a_ton
   #returns True if the player w/ longest name has most steals
-end
 end
