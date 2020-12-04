@@ -209,6 +209,13 @@ end
 
 def most_points_scored
   #which player has most points scored
+  most_points_scored = 0
+  most_points_players = []
+  game_hash.each do |home_away, keys_list|
+    keys_list[:players].each do |player|
+      if player[:points] > most_points_scored
+        most_points_scored = player[:points]
+        most_points_scored 
 end
 
 def winning_team
