@@ -160,12 +160,12 @@ def team_colors(team_name)
   end
 end
 
-# def team_names
-#   #operates on the game hash and returns an Array of team team_names
-#   game_hash.each do |home_away, keys_list|
-#     return keys_list[:team_name].map
-#   end
-# end
+def team_names
+  #operates on the game hash and returns an Array of team team_names
+  game_hash.each do |home_away, keys_list|
+    return keys_list[:team_name].map
+  end
+end
 
 def player_numbers(team_name)
   #takes an argument of the team name and returns Array of jersey numbers
