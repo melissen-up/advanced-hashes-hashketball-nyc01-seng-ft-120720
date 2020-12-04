@@ -153,6 +153,8 @@ end
 
 def team_colors(team_name)
   #takes in a team name and returns an Array of team's colors
+  game_hash.each do |home_away, keys_list|
+    if keys_list
 end
 
 def team_names
