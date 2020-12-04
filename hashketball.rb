@@ -194,7 +194,8 @@ def big_shoe_rebounds
   #remember to think about return values here
   biggest_shoe = 0
   rebounds_scored = 0
-  game_hash
+  game_hash.each do |home_away, keys_list|
+    keys_list
 end
 
 # ~*~*~*~*BONUS CHALLENGES*~*~*~*~
