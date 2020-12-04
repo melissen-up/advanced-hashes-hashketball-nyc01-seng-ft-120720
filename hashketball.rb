@@ -153,7 +153,7 @@ end
 
 def team_colors(team_name)
   game_hash.each do |home_away, keys_list|
-    if keys_list[:team_names] == team_name
+    if keys_list[:team_name] == team_name
       return keys_list[:colors].map
     end
   end
