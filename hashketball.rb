@@ -139,7 +139,7 @@ def num_points_scored(player_name)
   game_hash.each do |home_away, keys_list|
     keys_list[:players].each do |player|
       if player == player_name
-        player[:points]
+        then player[:points]
 end
 
 def shoe_size(player_name)
