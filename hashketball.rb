@@ -134,13 +134,11 @@ end
 
 
 def num_points_scored(player_name)
-  # all_players_helper[:player][:score]
   game_hash.each do |home_away, keys_list|
     keys_list[:players].each do |player|
       return player[:points] player[:player_name] == player_name
     end
   end
-end
 end
 
 def shoe_size(player_name)
