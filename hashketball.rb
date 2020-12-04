@@ -161,8 +161,8 @@ end
 
 def team_names
   #operates on the game hash and returns an Array of team team_names
-  game_hash.each do |home_away, keys_list|
-    return keys_list[:team_name].map
+  game_hash.map do |home_away, keys_list|
+    keys_list[:team_name]
   end
 end
 
