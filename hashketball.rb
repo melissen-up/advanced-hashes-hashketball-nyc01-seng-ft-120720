@@ -198,7 +198,11 @@ def big_shoe_rebounds
     keys_list[:players].each do |player|
       if player[:shoe] > biggest_shoe
         biggest_shoe = player[:shoe]
-        
+        rebounds_scored = player[:rebounds]
+      end
+    end
+  end
+  return rebounds_scored
 end
 
 # ~*~*~*~*BONUS CHALLENGES*~*~*~*~
