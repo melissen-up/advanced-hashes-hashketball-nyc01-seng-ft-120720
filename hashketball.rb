@@ -179,6 +179,7 @@ end
 
 def player_stats(player_name)
   #takes an argument of a player's name and returns Hash of their player_stats
+  game_hash.each do 
 end
 
 def big_shoe_rebounds
