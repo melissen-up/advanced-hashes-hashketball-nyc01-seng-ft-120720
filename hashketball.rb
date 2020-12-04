@@ -1,4 +1,5 @@
-# Write your code below game_hash
+require 'pry'
+
 def game_hash
   {
     home: {
@@ -126,4 +127,64 @@ def game_hash
   }
 end
 
-# Write code here
+# HELPERS
+
+# def all_players_helper
+# game_hash[:home][:players].merge(game_hash[:away][:players])
+# end
+
+
+
+def num_points_scored(player_name)
+  # all_players_helper[:player][:score]
+  binding.pry
+  game_hash.each do |home_away, keys_list|
+    keys_list[:players].each do |player|
+      if player == player_name
+        player[:points]
+end
+
+def shoe_size(player_name)
+  #takes in a player's name and returns shoe size
+end
+
+def team_colors(team_name)
+  #takes in a team name and returns an Array of team's colors
+end
+
+def team_names
+  #operates on the game hash and returns an Array of team team_names
+end
+
+def player_numbers(team_name)
+  #takes an argument of the team name and returns Array of jersey numbers
+end
+
+def player_stats(player_name)
+  #takes an argument of a player's name and returns Hash of their player_stats
+end
+
+def big_shoe_rebounds
+  #uses game hash to return the number of rebounds associated with biggest shoe_size
+  #first, find the player w/ the largest shoe size
+  #return that players number of rebounds
+  #remember to think about return values here
+end
+
+# ~*~*~*~*BONUS CHALLENGES*~*~*~*~
+
+def most_points_scored
+  #which player has most points scored
+end
+
+def winning_team
+  #which team has the most points
+end
+
+def player_with_longest_name
+  #which player has the longest name?
+end
+
+def long_name_steals_a_ton
+  #returns True if the player w/ longest name has most steals
+end
