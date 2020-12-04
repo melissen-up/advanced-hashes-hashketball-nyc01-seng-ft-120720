@@ -215,7 +215,7 @@ def most_points_scored
     keys_list[:players].each do |player|
       if player[:points] > most_points_scored
         most_points_scored = player[:points]
-        most_points_scored 
+        most_points_scored.replace(player[:player_name]) 
 end
 
 def winning_team
