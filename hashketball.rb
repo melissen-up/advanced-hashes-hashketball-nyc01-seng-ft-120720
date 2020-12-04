@@ -181,7 +181,7 @@ def player_stats(player_name)
   #takes an argument of a player's name and returns Hash of their player_stats
   game_hash.each do |home_away, keys_list|
     keys_list[:players].each do |player|
-      player ? player_name : player
+      player[:player_name] ? player_name : player
     end
   end
 end
